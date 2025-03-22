@@ -22,6 +22,13 @@
       "when": 1742667393548,
       "tag": "0002_safe_lord_hawal",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1742668842349,
+      "tag": "0003_brainy_chameleon",
+      "breakpoints": true
     }
   ]
 }
