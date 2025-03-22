@@ -1,5 +1,17 @@
+import { auth } from "@/auth";
 import LandingPage from "@/components/Screens/LandingPage";
+import { redirect } from "next/navigation";
 
-export default function Home() {
+const IndexRoute = async () =>{
+
+  const session = await auth();
+
+  if(session)
+  {
+    redirect("/dashboard")
+  }
+
   return <LandingPage />;
 }
+
+export default IndexRoute;
