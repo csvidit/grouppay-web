@@ -17,19 +17,6 @@ const Footer = () => {
             <div>Built using Next.js</div>
           </div>
         </div>
-        <div className="flex flex-col gap-6">
-          <div className="flex flex-col gap-2">
-            <div className="font-medium text-base text-emerald-500">
-              Other info
-            </div>
-            <InlineLink plain href="/faq">
-              FAQs
-            </InlineLink>
-            <InlineLink plain href="/terms">
-              Terms and Conditions
-            </InlineLink>
-          </div>
-        </div>
         <div className="flex flex-col gap-2">
           <div className="font-medium text-base text-emerald-500">
             More about Vidit Khandelwal
